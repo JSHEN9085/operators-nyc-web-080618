@@ -1,5 +1,7 @@
 def unsafe?(speed)
-  (speed > 60 || spend < 40)? true : false 
+  speed > 60? true : false 
+  speed < 40? true : false 
+  (speed > 40 && speed <60)? false
 end
 
 
